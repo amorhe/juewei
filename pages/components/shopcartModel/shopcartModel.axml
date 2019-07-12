@@ -65,14 +65,16 @@
 
 
 </view>
+<confirm content="是否清空购物车" mask="{{mask}}" modalShow="{{modalShow}}" onCounterPlusOne="onCounterPlusOne" />
 <!-- 遮罩层 -->
-<view a:if="{{mask}}" class="mask" onTap="hiddenShopcart"></view>
+<view a:if="{{mask1}}" class="mask" onTap="hiddenShopcart"></view>
 
 <!-- 清空购物车 -->
-<view class="modalView" a:if="{{modalShow}}">
+<!-- <view class="modalView" a:if="{{modalShow}}">
   <view class="modalContent">是否清空购物车</view>
   <view class="modalBtn">
    <button onTap="confirmTap">确认</button>
    <button onTap="cancelTap">取消</button>
   </view>
-</view>
+</view> -->
+

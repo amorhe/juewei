@@ -1,9 +1,11 @@
 {
   "pages": [
-     
     "pages/home/orderform/orderform",
-    "pages/home/goodslist/goodsdetail/goodsdetail",
+    "pages/home/orderform/remarks/remarks",
+    
     "pages/home/goodslist/goodslist",
+    "pages/home/orderform/selectaddress/selectaddress",
+    "pages/home/goodslist/goodsdetail/goodsdetail",
     "pages/home/switchshop/switchshop",
     "pages/position/position",
     "package_my/pages/chooseshop/chooseshop",
@@ -15,15 +17,12 @@
     "package_my/pages/coupon/redeemCodeRecord/redeemCodeRecord",
     "package_my/pages/coupon/couponRecord/couponRecord",
     "package_my/pages/membercard/membercard",
-    
     "pages/home/selecttarget/selecttarget",
     "pages/home/orderform/agreement/agreement",
-    "pages/home/orderform/selectaddress/selectaddress",
     "pages/home/orderfinish/orderfinish",
-    
+    "pages/vip/index/index",
     "pages/my/index/index",
     "pages/order/list/list",
-    "pages/vip/index/index",
     "pages/login/protocol/protocol",
     "pages/login/verifycode/verifycode",
     "pages/login/auth/auth",

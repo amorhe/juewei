@@ -5,7 +5,8 @@ Component({
     showShopcar:false ,  //购物车
     mask:false, //遮罩
     imageUrl,
-    modalShow: false //弹框
+    modalShow: false, //弹框
+    mask1: false
   },
   props: {},
   didMount() {},
@@ -16,33 +17,29 @@ Component({
     openShopcart(){
       this.setData({
         showShopcar: true,
-        mask: true
+        mask1: true
       })
     },
     hiddenShopcart(){
       this.setData({
         showShopcar: false,
-        mask: false
+        mask1: false
       })
     },
     // 清空购物车
     clearShopcart(){
        this.setData({
         showShopcar: false,
-        modalShow: true
+        mask1:false,
+        mask:true,
+        modalShow: true 
       })
     },
-    confirmTap(){
+    onCounterPlusOne(data) {
       this.setData({
-        mask: false,
-        modalShow: false
+        mask: data.mask,
+        modalShow: data.modalShow
       })
     },
-    cancelTap() {
-      this.setData({
-        mask: false,
-        modalShow: false
-      })
-    }
   },
 });

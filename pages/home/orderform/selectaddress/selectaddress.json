@@ -1,3 +1,7 @@
 {
-    "defaultTitle": "绝味鸭脖"
+    "defaultTitle": "选择地址",
+    "titleBarColor": "#E60012",
+    "usingComponents": {
+      "confirm": "../../../components/confirm/confirm"
+    }
   }

@@ -76,6 +76,40 @@ page {
 .fontThirtySix {
   font-size: 36rpx;
 }
-.borderBottom {
+.borderBottomSixteen {
   border-bottom: 16rpx #f5f5f5 solid;
 } 
+.borderBottomSolid {
+  border-bottom: 1px #eee solid
+}
+.flexNormal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.marginLEight {
+  margin-left: 8rpx;
+}
+.marginLSixteen {
+  margin-left: 16rpx
+}
+.marginBEight {
+  margin-bottom: 8rpx;
+}
+.paddingBThirty {
+  padding-bottom: 30rpx;
+}
+.fontFourtyWeight {
+  font-size: 40rpx;
+  font-weight: 600
+}
+.paddingRTwenty {
+  padding-right: 20rpx;
+}
+.colorNine {
+  color: #999
+}
+.flexSpecial {
+  display: flex;
+  align-items: center
+}
