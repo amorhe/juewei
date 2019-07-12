@@ -1,9 +1,10 @@
-import { ajax } from '../../../pages/common/js/li-ajax'
+import { ajax, _sid } from '../../../pages/common/js/li-ajax'
 import { imageUrl2 } from '../../../pages/common/js/baseUrl'
 
 Page({
   data: {
     imageUrl2,
+    _sid,
     detail: {
       "id": "355",
       "goods_name": "123",
@@ -60,14 +61,27 @@ Page({
   },
 
   async createOrder(){
-    let {goods_id,exchange_type,point,amount} = this.data.detail;
-    let data = {
-      'goods[goods_id]':goods_id,
+    let {id,exchange_type,point,amount} = this.data.detail;
+    let {_sid} = this.data;
+
+    let params = {
+      'goods[goods_id]':id,
       'goods[exchange_type]':exchange_type,
       'goods[point]':point,
-      'goods[amount]':amount
+      'goods[amount]':amount,
+      _sid
     }
-    let res = await ajax('/mini/vip/wap/trade/create_order',data)
+    let {code,data} = await ajax('/mini/vip/wap/trade/create_order',params)
+    if(code === 100){
+      return data
+    }
+  },
+
+  async confirmOrder(order_sn){
+    let {_sid} = this.data;
+    let params = {order_sn,_sid}
+    let {code,data} = await ajax('/mini/vip/wap/trade/confirm_order',params)
+    return code === 100
   },
 
   showConfirm() {
@@ -85,7 +99,8 @@ Page({
           if (result.confirm && result.ok) {
             // 虚拟商品，点击兑换按钮，调用创建订单接口，然后调用确认订单接口，然后调起支付
             if (goods_type == 1) {
-              await this.createOrder()
+             let {order_id,order_sn} = await this.createOrder()
+             let res = await this.confirmOrder(order_sn)
 
               // 虚拟订单 + 兑换码 => 无需发货
               if (goods_detail_type == 2 && receive_type == 0) {
