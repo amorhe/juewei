@@ -1,6 +1,10 @@
 <view class="orderContainer">
+<<<<<<< HEAD
   <!-- 外卖 -->
   <view class="addressView" a:if="{{orderType==1}}">
+=======
+  <view class="addressView">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
     <view class="noAddress">
       <!-- 选择地址前 -->
       <text>选择收货地址</text>
@@ -12,6 +16,7 @@
       <image class="normalImage" mode="scaleToFill" src="{{imageUrl}}arrow_right1.png"/>
     </view>
   </view>
+<<<<<<< HEAD
   <!-- 自提 -->
   <view class="deliverView" a:if="{{orderType==2}}">
     <view class="fontThirtySix fontBold">朝阳区青年路甘露园中里2号E-1地铁层商 铺朝阳区青</view>
@@ -39,6 +44,8 @@
 
   </view>
 
+=======
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
   <view class="orderList_box">
     <view class="ordershopName borderBottomSolid">绝味鸭脖（定福庄西街店）</view>
     <view class="order_list">

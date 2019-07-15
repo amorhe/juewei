@@ -10,9 +10,17 @@ page {
   position: fixed;
   left: 0;
   top: 0;
+<<<<<<< HEAD
   z-index: 1001
 }
 .contanier {
+=======
+  z-index: 100
+}
+.contanier {
+  top: 0px; 
+  left: 0px; 
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
   width: 100%; 
   height: 100%; 
   overflow: hidden; 
@@ -110,10 +118,13 @@ page {
 .flexSpecial {
   display: flex;
   align-items: center
+<<<<<<< HEAD
 }
 .fontThirtyFour {
   font-size: 34rpx;
 }
 .marginBSixteen {
   margin-bottom: 16rpx;
+=======
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 }

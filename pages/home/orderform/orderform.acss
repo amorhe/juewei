@@ -202,6 +202,7 @@
   color: #fff;
   line-height: 52rpx;
   font-size: 26rpx;
+<<<<<<< HEAD
 }
 /* 自提 */
 .deliverView {
@@ -223,4 +224,6 @@
 .deliverMiddle>view {
   display: flex;
   flex-direction: column
+=======
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 }

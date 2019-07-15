@@ -83,9 +83,15 @@
       </view>
     </scroll-view>
     <!-- 右边展示系列 -->
+<<<<<<< HEAD
     <scroll-view scroll-y="{{scroll_y}}" style="box-sizing:border-box;;width:530rpx;float:right;height:100%" scroll-into-view="{{goodsType}}" onScroll="scrollEvent"> 
         <!-- 折扣 -->
         <view id="1" class="zhekou">
+=======
+    <scroll-view scroll-y="{{scroll_y}}" style="box-sizing:border-box;;width:530rpx;float:right;height:100%" scroll-into-view="{{toActive}}">
+        <!-- 折扣 -->
+        <view id="1">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
           <view class="goodsTypeEv">折扣</view>
           <view class="goodsBox">
             <view class="discountImg">
@@ -129,7 +135,11 @@
           </view>
         </view>
         <!-- 套餐 -->
+<<<<<<< HEAD
         <view id="2" class="taocan">
+=======
+        <view id="2">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
           <view class="goodsTypeEv">套餐</view>
           <view class="goodsBox">
             <image class="goodsImage1" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4293286665,4193174544&fm=26&gp=0.jpg"/>
@@ -193,7 +203,11 @@
                   </view>
                   <view class="oldPrice">¥30/份</view>
                 </view>
+<<<<<<< HEAD
               <view class="goodsSize" onTap="chooseSizeTap">
+=======
+              <view class="goodsSize">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
                 <view>选规格</view>
                 <view>2</view>
               </view>
@@ -258,7 +272,11 @@
                     <text>/ 份</text>
                   </view>
                 </view>
+<<<<<<< HEAD
                 <view class="goodsSize" onTap="chooseSizeTap">
+=======
+                <view class="goodsSize">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
                 <view>选规格</view>
                 <view>2</view>
               </view>
@@ -304,7 +322,11 @@
   </view>
 
 <!-- 购物车 -->
+<<<<<<< HEAD
 <shopcart-model />
 
 <!-- 选择商品规格 -->
 <goods-modal maskView="{{maskView}}" goodsModal="{{goodsModal}}" onCloseModal="closeModal" />
+=======
+<shopcart-model />
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac

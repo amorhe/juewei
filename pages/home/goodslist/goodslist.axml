@@ -71,7 +71,11 @@
 <view class="activityWrap">
   <image src="../../common/img/peisong.png" />
 </view>
+<<<<<<< HEAD
 <view style="height:100rpx;" hidden="{{!scroll_y}}"></view>
+=======
+
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 <navigator url="/package_my/pages/chooseshop/chooseshop" class="{{scroll_y?'pagesScorll':'pagesNormal'}}">
   <!-- 推荐门店 -->
   <view class="shopDefault">
@@ -99,6 +103,13 @@
   </view>
 </navigator>
 
+<<<<<<< HEAD
 <!-- 购物车 -->
 <shopcart scrollY="{{scroll_y}}"  />
+=======
+<!-- 选择商品 -->
+<shopcart scrollY="{{scroll_y}}"  />
+
+
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 </view>

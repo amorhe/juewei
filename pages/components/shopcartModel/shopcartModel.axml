@@ -65,9 +65,23 @@
 
 
 </view>
+<<<<<<< HEAD
 <!-- 弹框组件 -->
+=======
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 <confirm content="是否清空购物车" mask="{{mask}}" modalShow="{{modalShow}}" onCounterPlusOne="onCounterPlusOne" />
 <!-- 遮罩层 -->
 <view a:if="{{mask1}}" class="mask" onTap="hiddenShopcart"></view>
 
+<<<<<<< HEAD
+=======
+<!-- 清空购物车 -->
+<!-- <view class="modalView" a:if="{{modalShow}}">
+  <view class="modalContent">是否清空购物车</view>
+  <view class="modalBtn">
+   <button onTap="confirmTap">确认</button>
+   <button onTap="cancelTap">取消</button>
+  </view>
+</view> -->
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 

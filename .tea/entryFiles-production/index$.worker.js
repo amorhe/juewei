@@ -20,7 +20,10 @@ function success() {
 require('../../app');
 require('../../pages/components/confirm/confirm');
 require('../../pages/components/shopcartModel/shopcartModel');
+<<<<<<< HEAD
 require('../../pages/components/goodsModal/goodsModal');
+=======
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 require('../../pages/components/shopcart/shopcart');
 require('../../node_modules/mini-antui/es/badge/index');
 require('../../node_modules/mini-antui/es/tabs/index');
@@ -28,6 +31,7 @@ require('../../node_modules/mini-antui/es/tabs/tab-content/index');
 require('../../node_modules/mini-antui/es/grid/index');
 require('../../node_modules/mini-antui/es/list/index');
 require('../../node_modules/mini-antui/es/list/list-item/index');
+<<<<<<< HEAD
 require('../../pages/home/selecttarget/selecttarget');
 require('../../pages/home/selectcity/selectcity');
 require('../../pages/home/goodslist/goodslist');
@@ -35,6 +39,11 @@ require('../../pages/home/orderform/orderform');
 require('../../pages/home/orderError/orderError');
 require('../../pages/home/orderfinish/orderfinish');
 require('../../pages/home/orderform/remarks/remarks');
+=======
+require('../../pages/home/orderform/remarks/remarks');
+require('../../pages/home/orderform/orderform');
+require('../../pages/home/goodslist/goodslist');
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 require('../../pages/home/orderform/selectaddress/selectaddress');
 require('../../pages/home/goodslist/goodsdetail/goodsdetail');
 require('../../pages/home/switchshop/switchshop');
@@ -48,7 +57,13 @@ require('../../package_my/pages/coupon/explain/explain');
 require('../../package_my/pages/coupon/redeemCodeRecord/redeemCodeRecord');
 require('../../package_my/pages/coupon/couponRecord/couponRecord');
 require('../../package_my/pages/membercard/membercard');
+<<<<<<< HEAD
 require('../../pages/home/orderform/agreement/agreement');
+=======
+require('../../pages/home/selecttarget/selecttarget');
+require('../../pages/home/orderform/agreement/agreement');
+require('../../pages/home/orderfinish/orderfinish');
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 require('../../pages/vip/index/index');
 require('../../pages/my/index/index');
 require('../../pages/order/list/list');

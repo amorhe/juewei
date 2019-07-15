@@ -5,7 +5,11 @@
   position: fixed;
   top: 403rpx;
   left: 95rpx;
+<<<<<<< HEAD
   z-index: 1001;
+=======
+  z-index: 101;
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
   padding-top: 40rpx;
   box-sizing: border-box
 }

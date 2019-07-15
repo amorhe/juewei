@@ -12,7 +12,19 @@ Page({
     vertical: false,
     interval: 1000,
     circular: true,
+<<<<<<< HEAD
     imgUrls:['../../common/img/banner.png']
+=======
+    imgUrls:['../../common/img/banner.png'],
+    goodsList:[
+      {
+        type:1
+      },
+      {
+        type:2
+      }
+    ],
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
   },
   onLoad(query) {
     // 页面加载
@@ -58,6 +70,13 @@ Page({
     }
   },
   
+<<<<<<< HEAD
+=======
+  preventDefaultFn(e){
+    
+  },
+  
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
   onHide() {
     // 页面隐藏
   },

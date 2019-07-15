@@ -1,5 +1,6 @@
 {
   "pages": [
+<<<<<<< HEAD
     "pages/home/goodslist/goodslist",
     "pages/home/selecttarget/selecttarget",
     
@@ -7,6 +8,12 @@
     "pages/home/orderError/orderError",
     "pages/home/orderfinish/orderfinish",
     "pages/home/orderform/remarks/remarks",
+=======
+    "pages/home/orderform/orderform",
+    "pages/home/orderform/remarks/remarks",
+    
+    "pages/home/goodslist/goodslist",
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
     "pages/home/orderform/selectaddress/selectaddress",
     "pages/home/goodslist/goodsdetail/goodsdetail",
     "pages/home/switchshop/switchshop",
@@ -20,8 +27,14 @@
     "package_my/pages/coupon/redeemCodeRecord/redeemCodeRecord",
     "package_my/pages/coupon/couponRecord/couponRecord",
     "package_my/pages/membercard/membercard",
+<<<<<<< HEAD
     
     "pages/home/orderform/agreement/agreement",
+=======
+    "pages/home/selecttarget/selecttarget",
+    "pages/home/orderform/agreement/agreement",
+    "pages/home/orderfinish/orderfinish",
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
     "pages/vip/index/index",
     "pages/my/index/index",
     "pages/order/list/list",

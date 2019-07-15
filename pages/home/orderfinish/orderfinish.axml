@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <view class="orderfinishView">
   <view>
     <image class="successIcon" mode="scaleToFill" src="{{imageUrl}}success.png"/>
@@ -7,4 +8,8 @@
   <view class="adView">
     <image mode="scaleToFill" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2045857670,768370412&fm=26&gp=0.jpg"/>
   </view>
+=======
+<view>
+  订单支付完成页
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
 </view>

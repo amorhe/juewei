@@ -1,3 +1,17 @@
+<<<<<<< HEAD
 /node-modules
 /debug.log
 *.log
+=======
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+.tea
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac

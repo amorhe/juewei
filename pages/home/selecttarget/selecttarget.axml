@@ -5,7 +5,11 @@
 
 <view class="searchView">
   <view>
+<<<<<<< HEAD
     <view class="positionAddress" onTap="choosecityTap">
+=======
+    <view class="positionAddress">
+>>>>>>> 7e77cfbb2662b35232efc82e90ba3c220851f8ac
       <text>北京市</text>
       <image src="{{imageUrl}}arrow_down1.png" />
     </view>
